@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# APKs compilados - no incluir en el repositorio
+*.apk
+
+# Archivos innecesarios del proyecto
+*.bat
+*.ico
+INSTRUCCIONES_ENTREGA.md
+lib/test_imports.dart
+lib/src/
+android/build/
